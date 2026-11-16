@@ -6,11 +6,11 @@
   ],
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::YOUR_ACCOUNT_ID:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::730335459381:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "springboot-demo",
-      "image": "YOUR_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/springboot-demo:latest",
+      "image": "730335459381.dkr.ecr.us-east-1.amazonaws.com/springboot-demo:6",
       "portMappings": [
         {
           "containerPort": 8080,
